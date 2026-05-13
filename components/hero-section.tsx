@@ -65,14 +65,14 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300"
+              className="interact-button bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300"
             >
               Claim Airdrop
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-border hover:bg-secondary/50 text-foreground px-8 py-6 text-lg font-semibold transition-all duration-300 bg-transparent"
+              className="interact-button border-border hover:bg-secondary/50 text-foreground px-8 py-6 text-lg font-semibold transition-all duration-300 bg-transparent"
             >
               Explore Vortex
             </Button>
